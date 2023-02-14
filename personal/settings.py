@@ -151,8 +151,8 @@ EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 # EMAIL_PORT=587
 # EMAIL_USE_TLS=True
 
-# LOGIN_REDIRECT_URL='home'
-# LOGOUT_REDIRECT_URL='home'
+LOGIN_REDIRECT_URL='home'
+LOGOUT_REDIRECT_URL='home'
 
 
 
@@ -176,6 +176,5 @@ CKEDITOR_CONFIGS={
 
 CKEDITOR_UPLOAD_PATH="uploads/"
 CKEDITOR_RESTRICT_BY_USER=True
-
 
 
